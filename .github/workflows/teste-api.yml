@@ -30,7 +30,7 @@ jobs:
    
 
   test-api:
-
+    needs : build
     runs-on: ubuntu-latest
 
     strategy:
